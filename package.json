@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --port 3000 --config webpack.config.js --inline --hot --colors --quiet"
+    "dev": "webpack-dev-server --port 3000 --config web/webpack.config.dev.js --inline --hot --colors --quiet"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "babel-preset-es2015": "6.9.0",
     "babel-preset-react": "6.5.0",
     "babel-preset-stage-1": "6.5.0",
+    "babel-runtime": "6.9.2",
     "webpack": "1.13.1",
     "webpack-dev-server": "1.14.1"
   }

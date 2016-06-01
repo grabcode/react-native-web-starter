@@ -1,15 +1,15 @@
 const path = require('path')
 const webpack = require('webpack')
 
-const DIRECTORY = __dirname
+const DIRECTORY = path.join(__dirname)
 
 module.exports = {
   devServer: {
-    contentBase: DIRECTORY+"/src"
+    contentBase: path.join(__dirname, 'src')
   },
-  entry: {
-    source: DIRECTORY+"/src"
-  },
+  entry: [
+    path.join(__dirname, '../index.web.js')
+  ],
   module: {
     loaders: [
       {
@@ -32,7 +32,7 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      'react-native': path.join(__dirname, '../src')
+      'react-native': 'react-native-web'
     }
   }
 }
