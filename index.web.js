@@ -4,11 +4,10 @@
  * Follow me https://twitter.com/grabthecode
  */
 
-import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
+import { App } from './app/components/App';
 
-import {App} from './web/src/app';
-
+AppRegistry.registerComponent('App', () => App);
 AppRegistry.runApplication('App', {
   rootTag: document.getElementById('react-root')
 })

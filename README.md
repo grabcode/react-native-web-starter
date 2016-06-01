@@ -1,4 +1,4 @@
-![React Native Web](/web/assets/react-native-web.png "Logo React Native Web")
+![React Native Web](/app/assets/react-native-web.png "Logo React Native Web")
 
 # React Native for Web Starter
 
