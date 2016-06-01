@@ -17,6 +17,11 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: { cacheDirectory: true }
+      },
+      {
+        test: /\.(gif|jpe?g|png|svg)$/,
+        loader: 'url-loader',
+        query: { name: '[name].[hash:16].[ext]' }
       }
     ]
   },

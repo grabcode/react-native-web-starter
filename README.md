@@ -1,3 +1,5 @@
+![React Native Web](/web/assets/react-native-web.png "Logo React Native Web")
+
 # React Native for Web Starter
 
 React Native for Web Starter aims at:

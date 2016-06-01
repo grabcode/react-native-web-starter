@@ -9,13 +9,18 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image,
 } from 'react-native';
 
 export class App extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <Image
+          style={styles.logo}
+          source={require('../assets/react-native-web.png')}
+        />
         <Text style={styles.welcome}>
           Welcome to React Native for Web Starter!
         </Text>
@@ -37,6 +42,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+  },
+  logo: {
+    alignSelf: 'center',
+    marginBottom: 10,
   },
   welcome: {
     fontSize: 20,

@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "15.1.0",
     "react-dom": "0.14.8",
-    "react-native-web": "0.0.25"
+    "react-native-web": "0.0.25",
+    "url-loader": "0.5.7"
   },
   "devDependencies": {
     "babel-core": "6.9.1",
