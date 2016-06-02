@@ -17,6 +17,7 @@ This repo is an attempt to make it easier for anyone to launch, experiment and p
 ```
 git clone git@github.com:grabcode/react-native-web-starter.git projectname
 cd projectname
+rm -rf .git
 npm install
 ```
 
