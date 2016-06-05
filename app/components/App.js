@@ -12,6 +12,8 @@ import {
   Image,
 } from 'react-native';
 
+import { Touchable } from './Touchable';
+
 export class App extends Component {
   render() {
     return (
@@ -20,16 +22,18 @@ export class App extends Component {
           style={styles.logo}
           source={require('../assets/react-native-web.png')}
         />
-        <Text style={styles.welcome}>
-          Welcome to React Native for Web Starter!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.web.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Alt+Cmd+I for dev menu
-        </Text>
+        <Touchable style={styles.touchable} onPress={()=> console.log("Can't touched this?")}>
+          <Text style={styles.welcome}>
+            Welcome to React Native for Web Starter!
+          </Text>
+          <Text style={styles.instructions}>
+            To get started, edit index.web.js
+          </Text>
+          <Text style={styles.instructions}>
+            Press Cmd+R to reload,{'\n'}
+            Alt+Cmd+I for dev menu
+          </Text>
+        </Touchable>
       </View>
     );
   }
@@ -55,5 +59,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
+  },
+  touchable: {
+    backgroundColor: '#CAE6FE',
   },
 });
