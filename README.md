@@ -22,7 +22,10 @@ npm install
 ```
 
 ### Run
-`npm run dev`
+`npm run dev` - your app is accessible at `http://localhost:3000`
+
+You can also enjoy [React Storybook](https://github.com/kadirahq/react-storybook) running `npm run storybook` and open `http://localhost:9001`
+
 
 ### Build
 TODO
