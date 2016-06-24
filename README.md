@@ -5,7 +5,11 @@
 React Native for Web Starter aims at:
 - Providing the leanest code base to bootstrap a React Native for Web project.
 - Following the standard React Native project structure close so someone becoming familiar with React Native may quickly find its way in a RN4Web project, and vice-versa.
+- Benefit from the React community dev-tools, such as Storybook.
 
+## Presentation
+You can find a presentation of React Native for Web and this starter here.
+[![React Native for Web Starter](https://img.youtube.com/vi/eV4pZ6vv1VE/0.jpg)](https://www.youtube.com/watch?v=eV4pZ6vv1VE)
 
 ## Getting *quickly* started
 
@@ -34,7 +38,7 @@ TODO
 
 React Native for Web runs in the browser, hence get out of the box full dev tools supports.
 
-In the future, RN4Web Starter may come with some flavour such as Redux and its amazing [tool suite](https://github.com/gaearon/redux-devtools), and [React Storybook](https://github.com/kadirahq/react-storybook).
+In the future, RN4Web Starter may come with some flavour such as Redux and its amazing [tool suite](https://github.com/gaearon/redux-devtools).
 
 ## About React Native for Web
 
