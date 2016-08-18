@@ -45,3 +45,5 @@ dist/
 
 # OTHERS
 notes.txt
+chrome/bundle.js
+chrome/bundle.js.map
