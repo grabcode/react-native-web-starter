@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Hello World",
+    "version": "2.1",
+    "minimum_chrome_version": "23",
+    "offline_enabled": true,
+    "icons": {
+        "16": "assets/icon-16x16.png",
+        "128": "assets/icon-128x128.png"
+    },
+    "app": {
+        "background": {
+            "scripts": ["index.js"]
+        }
+    }
+}
