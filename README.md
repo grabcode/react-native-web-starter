@@ -30,7 +30,6 @@ npm install
 
 You can also enjoy [React Storybook](https://github.com/kadirahq/react-storybook) running `npm run storybook` and open `http://localhost:9001`
 
-
 ### Build
 TODO
 
@@ -39,6 +38,10 @@ TODO
 React Native for Web runs in the browser, hence get out of the box full dev tools supports.
 
 In the future, RN4Web Starter may come with some flavour such as Redux and its amazing [tool suite](https://github.com/gaearon/redux-devtools).
+
+#### Example with Android, iOS and Chrome applications added.
+
+https://github.com/robblovell/RN4All-React-Native-Starter.git
 
 ## About React Native for Web
 
