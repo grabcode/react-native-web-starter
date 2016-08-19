@@ -6,10 +6,6 @@
   "scripts": {
     "dev": "webpack-dev-server --port 3000 --config web/webpack.config.dev.js --inline --hot --colors --quiet",
     "storybook": "start-storybook -p 9001 -c web/.storybook",
-
-    "web": "webpack-dev-server --port 3000 --config web/webpack.config.dev.js --inline --hot --colors --quiet",
-    "chrome": "webpack-dev-server --port 3001  --config chrome/webpack.config.chrome.js --inline  --colors --quiet",
-    "build-chrome": "webpack --config chrome/webpack.config.chrome.js --inline  --colors --quiet "
   },
   "keywords": [],
   "author": "",
@@ -29,7 +25,6 @@
     "babel-preset-stage-1": "6.5.0",
     "babel-runtime": "6.9.2",
     "webpack": "1.13.1",
-    "webpack-dev-server": "1.14.1",
-    "write-file-webpack-plugin": "^3.1.8"
+    "webpack-dev-server": "1.14.1"
   }
 }
