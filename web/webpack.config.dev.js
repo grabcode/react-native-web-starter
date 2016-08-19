@@ -22,6 +22,20 @@ module.exports = {
         test: /\.(gif|jpe?g|png|svg)$/,
         loader: 'url-loader',
         query: { name: '[name].[hash:16].[ext]' }
+      },
+      {
+        test: /\.js$/,
+        exclude: /(node_modules|bower_components)/,
+        loader: 'babel', // 'babel-loader' is also a legal name to reference
+        query: {
+          presets: ["es2015",
+            "stage-1",
+            "react-native"
+          ],
+          plugins: [
+            "transform-decorators-legacy"
+          ]
+        }
       }
     ]
   },
