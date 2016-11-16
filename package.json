@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --port 3000 --config web/webpack.config.dev.js --inline --hot --colors --quiet",
     "storybook": "start-storybook -p 9001 -c web/.storybook",
-    "lint": "eslint app"
+    "lint": "eslint src"
   },
   "keywords": [],
   "author": "",
