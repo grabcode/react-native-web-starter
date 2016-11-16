@@ -1,7 +1,5 @@
-const path = require('path')
-const webpack = require('webpack')
-
-const DIRECTORY = path.join(__dirname)
+const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   devServer: {
@@ -40,4 +38,4 @@ module.exports = {
       'react-native': 'react-native-web'
     }
   }
-}
+};
