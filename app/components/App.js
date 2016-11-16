@@ -9,20 +9,31 @@ import {
   StyleSheet,
   Text,
   View,
-  Image,
+  Image
 } from 'react-native';
 
 import { Touchable } from './Touchable';
 
 export class App extends Component {
+  constructor() {
+    super();
+    this._handlePress = this._handlePress.bind(this);
+  }
+
+  _handlePress() {
+    console.log("Can't touched this?");
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Image
-          style={styles.logo}
           source={require('../assets/react-native-web.png')}
+          style={styles.logo}
         />
-        <Touchable style={styles.touchable} onPress={()=> console.log("Can't touched this?")}>
+        <Touchable
+          onPress={this._handlePress}
+          style={styles.touchable}>
           <Text style={styles.welcome}>
             Welcome to React Native for Web Starter!
           </Text>
@@ -44,23 +55,23 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#F5FCFF'
   },
   logo: {
     alignSelf: 'center',
-    marginBottom: 10,
+    marginBottom: 10
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
-    margin: 10,
+    margin: 10
   },
   instructions: {
     textAlign: 'center',
     color: '#333333',
-    marginBottom: 5,
+    marginBottom: 5
   },
   touchable: {
-    backgroundColor: '#CAE6FE',
-  },
+    backgroundColor: '#CAE6FE'
+  }
 });

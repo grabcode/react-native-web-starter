@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --port 3000 --config web/webpack.config.dev.js --inline --hot --colors --quiet",
-    "storybook": "start-storybook -p 9001 -c web/.storybook"
+    "storybook": "start-storybook -p 9001 -c web/.storybook",
+    "lint": "eslint app"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,10 @@
     "babel-loader": "^6.2.5",
     "babel-preset-react-native": "^1.9.0",
     "webpack": "1.13.2",
-    "webpack-dev-server": "1.14.1"
+    "webpack-dev-server": "1.14.1",
+    "eslint": "^3.4.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-react": "^6.1.2"
   }
 }
