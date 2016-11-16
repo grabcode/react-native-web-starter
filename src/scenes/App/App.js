@@ -12,7 +12,7 @@ import {
   Image
 } from 'react-native';
 
-import { Touchable } from './Touchable';
+import { Touchable } from '../../components';
 
 export class App extends Component {
   constructor() {
@@ -28,7 +28,7 @@ export class App extends Component {
     return (
       <View style={styles.container}>
         <Image
-          source={require('../assets/react-native-web.png')}
+          source={require('../../assets/react-native-web.png')}
           style={styles.logo}
         />
         <Touchable
