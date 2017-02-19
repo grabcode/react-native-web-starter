@@ -13,8 +13,10 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: { cacheDirectory: true }
+        loaders: [
+          'react-hot',
+          'babel-loader?cacheDirectory=true'
+        ]
       },
       {
         test: /\.(gif|jpe?g|png|svg)$/,

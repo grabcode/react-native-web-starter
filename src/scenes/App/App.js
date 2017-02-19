@@ -14,7 +14,7 @@ import {
 
 import { Touchable } from '../../components';
 
-export class App extends Component {
+export default class App extends Component {
   constructor() {
     super();
     this._handlePress = this._handlePress.bind(this);
