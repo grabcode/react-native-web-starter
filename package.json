@@ -12,8 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react-native-web": "0.0.49",
-    "react": "15.3.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-native-web": "^0.0.124",
     "url-loader": "0.5.7"
   },
   "devDependencies": {
@@ -22,6 +23,7 @@
     "babel-core": "^6.14.0",
     "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.5",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.8",
     "babel-preset-react-native-stage-0": "^1.0.0",
     "webpack": "1.13.2",
     "webpack-dev-server": "1.14.1",
