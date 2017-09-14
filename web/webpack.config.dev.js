@@ -45,6 +45,7 @@ module.exports = {
   resolve: {
     alias: {
       'react-native': 'react-native-web'
-    }
+    },
+    extensions: ["", ".web.js", ".js", ".json"]
   }
 };
