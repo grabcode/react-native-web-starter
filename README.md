@@ -1,6 +1,6 @@
 ![React Native Web](/app/assets/react-native-web.png "Logo React Native Web")
 
-# React Native for Web Starter
+# React Native for Web Amazing Project
 
 React Native for Web Starter aims at:
 - Providing the leanest code base to bootstrap a React Native for Web project.
